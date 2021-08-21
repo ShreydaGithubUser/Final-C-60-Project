@@ -1,0 +1,132 @@
+body {
+    text-align: center;
+}
+
+.menu {
+    list-style: none;
+    cursor: pointer;
+    z-index: 10;
+    position: absolute;
+    margin-left: 900px;
+    color: black;
+
+}
+
+#welcome {
+    background: linear-gradient(red, orange 70%);
+    display: table;
+    color: darkcyan;
+    height: 60%;
+    width: 100%;
+    z-index: 8;
+    
+}
+
+.links {
+    float: left;
+    margin: 10px;
+    font-size: 20px;
+  color: black;
+}
+
+#game {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+
+#About {
+    background: linear-gradient(orange, yellow 100%);
+    display: table;
+    color: white;
+    height: 200%;
+    width: 100%;
+
+}
+
+#ggames {
+    background: linear-gradient(yellow, green 100%);
+    display: table;
+    color: black;
+    height: 100%;
+    width: 100%;
+}
+.outer {
+  display: table;
+}
+
+.inner {
+  display: table-cell;
+}
+
+#rblox {
+  height 200px;
+  width: 200px;
+}
+
+#mcraft {
+  height: 200px;
+  width: 200px;
+    
+}
+
+#vlorant {
+  height: 200px;
+  width: 200px;
+}
+
+.gamelinks {
+  font-size: 30px;
+  color: white;
+  margin: 30px
+}
+
+a {
+  text-decoration: none;
+}
+
+.gamelinks:hover {
+  background-color: green;
+}
+
+div {
+  text-align: center
+}
+
+#notch {
+  text-align: center;
+}
+
+#creators {
+  height: 100%;
+  width: 100%;
+}
+
+#creators {
+    background: linear-gradient(green, blue 100%);
+    display: table;
+    color: black;
+    height: 40%;
+    width: 100%;
+    z-index: 8;
+  position: below;
+}
+
+#vgameimg {
+  height: 200px;
+  width: 200px;
+}
+
+.links:hover {
+  background-color: cyan;
+}
+
+#bonus {
+    background: linear-gradient(blue, purple 100%);
+    display: table;
+    color: black;
+    height: 40%;
+    width: 100%;
+    z-index: 8;
+  position: below;
+}
